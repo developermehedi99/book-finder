@@ -2,7 +2,7 @@ import logo from "../../assets/lws-logo-en.svg";
 const Navbar = () => {
   return (
     <div>
-      <nav className="pt-6 pb-20">
+      <nav className="py-6">
         <div className="container mx-auto flex items-center justify-between gap-x-6 max-w-7xl">
           <a href="/">
             <img

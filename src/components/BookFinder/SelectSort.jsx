@@ -10,7 +10,7 @@ const SelectSort = ({ onDropDownChange }) => {
         Sort By
       </label>
       <select
-        className="cursor-pointer border-2 border-gray-600 rounded-md border px-4 py-2 text-center text-gray-600"
+        className="cursor-pointer  rounded-md border px-4 py-2 text-center text-gray-600"
         name="sortBy"
         onChange={handleSortChange}
         id="sortBy"

@@ -98,6 +98,54 @@ const bookings = [
     addToCart: true,
     isFavorite: false,
   },
+  {
+    id: 9,
+    image:
+      "https://img.freepik.com/free-photo/back-school-accessories_169016-1504.jpg?w=360&t=st=1705466798~exp=1705467398~hmac=7c225598b2b1a967928e5ae058fd698071166845ad62d5b3b8e231f3cf21b85d",
+    title: "Management learning",
+    author_name: "Mehedi hasan",
+    publishedYear: 2013,
+    price: 33.81,
+    rating: 4,
+    addToCart: true,
+    isFavorite: true,
+  },
+  {
+    id: 10,
+    image:
+      "https://img.freepik.com/free-photo/front-view-stacked-books-graduation-cap-ladders-education-day_23-2149241014.jpg?w=360&t=st=1705466548~exp=1705467148~hmac=66ab2b1091118f8dbb1bd6068f8465c49012edfd9797428ba2aad57f70cc53d0",
+    title: "Web development",
+    author_name: "Marlon samius",
+    publishedYear: 2017,
+    price: 40.0,
+    rating: 4,
+    addToCart: true,
+    isFavorite: true,
+  },
+  {
+    id: 11,
+    image:
+      "https://img.freepik.com/free-photo/from-opened-books_23-2147779265.jpg?w=360&t=st=1705466845~exp=1705467445~hmac=e454586d5c6de919d39289c4ddfb1093a756c6dd91f6abf2b5e73a5dd0125b16",
+    title: "C programming",
+    author_name: "Umran malik",
+    publishedYear: 2006,
+    price: 54.0,
+    rating: 4,
+    addToCart: false,
+    isFavorite: true,
+  },
+  {
+    id: 12,
+    image:
+      "https://img.freepik.com/premium-photo/front-view-books-with-copy-space-education-day_23-2149241022.jpg?w=360",
+    title: "Android development",
+    author_name: "Zunaid ahamed",
+    publishedYear: 2010,
+    price: 14.99,
+    rating: 4,
+    addToCart: true,
+    isFavorite: true,
+  },
 ];
 
 const ListBook = () => {
@@ -138,7 +186,7 @@ const ListBook = () => {
   return (
     <div>
       <main className="my-10 lg:my-14">
-        <header className="mb-8 pb-10 lg:mb-10 mx-auto max-w-7xl">
+        <header className="mb-8 lg:mb-10 mx-auto max-w-7xl">
           <div className="mx-auto flex items-end justify-between max-md:max-w-[95%] max-md:flex-col max-md:items-start max-md:space-y-4">
             <div>
               <h6 className="mb-2 text-base lg:text-xl">Trending on 2021</h6>

@@ -9,7 +9,7 @@ const BookItem = ({ books, setBooks }) => {
     setBooks(newBooks);
   };
   return (
-    <div className="container mx-auto grid grid-cols-1 gap-8 max-w-7xl md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 pb-8">
+    <div className="container mx-auto grid grid-cols-1 gap-8 max-w-7xl md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
       {books.map((book) => (
         <div key={book.id} className="space-y-3">
           <div className="flex items-center justify-center rounded-md border border-[#324251]/30 bg-white p-4">
